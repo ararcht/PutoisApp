@@ -1,4 +1,8 @@
 $(document).ready(function () {
+    var vies=1;
+    if(window.location.href.indexOf("questions.html") > -1) {
+        timer()
+    }
     function timer() {
         var sec = 5;
         var timer = setInterval(function(){
