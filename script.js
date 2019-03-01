@@ -14,4 +14,7 @@ $(document).ready(function () {
             }
         }, 1000);
     }
+    $.getJSON( "data.json", function( data ) {
+        console.log(data["Q1"][0]);
+    })
 });
