@@ -43,11 +43,18 @@ $(document).ready(function () {
         $('.b-answer').empty();
         $('.c-answer').empty();
         $('.d-answer').empty();
-        $('.question-block').append(list["Q" + quest][0].title);
-        $('.a-answer').append(list["Q" + quest][0].choices[0]);
-        $('.b-answer').append(list["Q" + quest][0].choices[1]);
-        $('.c-answer').append(list["Q" + quest][0].choices[2]);
-        $('.d-answer').append(list["Q" + quest][0].choices[3]);
+        if (quest<6)
+        {
+            $('.question-block').append(list["Q" + quest][0].title);
+            $('.a-answer').append(list["Q" + quest][0].choices[0]);
+            $('.b-answer').append(list["Q" + quest][0].choices[1]);
+            $('.c-answer').append(list["Q" + quest][0].choices[2]);
+            $('.d-answer').append(list["Q" + quest][0].choices[3]);
+        }
+        else
+        {
+            $('.question-block').append('Bravo vous avez Gagné');
+        }
     }
 
     $('.answers').click(function () {
