@@ -1,122 +1,62 @@
 {
   "Q1": [
     {
-      "title": "When was the Civil War?",
+      "title": "Quel âge j'ai ?",
       "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "1949",
+        "1945",
+        "1944",
+        "1976"
       ],
-      "correctAnswer": "B"
+      "correctAnswer": "1949"
     }
   ],
   "Q2": [
     {
-      "title": "When was the Civil War 2 ?",
+      "title": "as-tu compris la question ?",
       "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "oui",
+        "non",
+        "je sais pas",
+        "Réponse D"
       ],
-      "correctAnswer": "1850-1900"
+      "correctAnswer": "Réponse D"
     }
   ],
   "Q3": [
     {
-      "title": "When was the Civil War?",
+      "title": "Codeur c'est une bonne ou mauvaise situation ?",
       "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "Je sais pas je suis infographiste",
+        "Je sais pas je suis infographiste",
+        "Je sais pas je suis infographiste",
+        "Oui"
       ],
-      "correctAnswer": "1850-1900"
+      "correctAnswer": "Oui"
     }
   ],
   "Q4": [
     {
-      "title": "When was the Civil War?",
+      "title": " le putois ça sent le fennec ? ",
       "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "Non ça sent le putois ",
+        "Non le putois ça pu moins que toi",
+        "Oui",
+        "Ça pue pas"
       ],
-      "correctAnswer": "1850-1900"
+      "correctAnswer": "Non le putois ça pu moins que toi"
     }
   ],
   "Q5": [
     {
-      "title": "When was the Civil War?",
+      "title": "la voiture de Florian c'est une poubelle ?",
       "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "Oui c'est un BMW",
+        "Oui c'est une poubelle",
+        "Il a une voiture ?",
+        "Je preferai la Sirocco"
       ],
-      "correctAnswer": "1850-1900"
+      "correctAnswer": "Oui c'est une poubelle"
     }
   ],
-  "Q6": [
-    {
-      "title": "When was the Civil War?",
-      "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": "1850-1900"
-    }
-  ],
-  "Q7": [
-    {
-      "title": "When was the Civil War?",
-      "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": "1850-1900"
-    }
-  ],
-  "Q8": [
-    {
-      "title": "When was the Civil War?",
-      "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": "1850-1900"
-    }
-  ],
-  "Q9": [
-    {
-      "title": "When was the Civil War?",
-      "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": "1850-1900"
-    }
-  ],
-  "Q10": [
-    {
-      "title": "When was the Civil War?",
-      "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": "1850-1900"
-    }
-  ]
 }
