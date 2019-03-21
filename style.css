@@ -10,7 +10,17 @@ body
 .question-block
 {
     height: 50vh;
-    background: #EFEFEF
+    background-image: url("img/planche.png");
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.question-block h1{
+  font-size: 3.5em !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .answers-block
 {
