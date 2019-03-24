@@ -24,12 +24,12 @@ $(document).ready(function () {
         async: false,
         success: function (data) {
             list = data;
-            $('.question-block').empty();
+            $('.question-block h1').empty();
             $('.a-answer').empty();
             $('.b-answer').empty();
             $('.c-answer').empty();
             $('.d-answer').empty();
-            $('.question-block').append(data["Q" + quest][0].title);
+            $('.question-block h1').append(data["Q" + quest][0].title);
             $('.a-answer').append(data["Q" + quest][0].choices[0]);
             $('.b-answer').append(data["Q" + quest][0].choices[1]);
             $('.c-answer').append(data["Q" + quest][0].choices[2]);
@@ -38,16 +38,23 @@ $(document).ready(function () {
     });
 
     function newquest() {
-        $('.question-block').empty();
+        $('.question-block h1').empty();
         $('.a-answer').empty();
         $('.b-answer').empty();
         $('.c-answer').empty();
         $('.d-answer').empty();
-        $('.question-block').append(list["Q" + quest][0].title);
-        $('.a-answer').append(list["Q" + quest][0].choices[0]);
-        $('.b-answer').append(list["Q" + quest][0].choices[1]);
-        $('.c-answer').append(list["Q" + quest][0].choices[2]);
-        $('.d-answer').append(list["Q" + quest][0].choices[3]);
+        if (quest<6)
+        {
+            $('.question-block h1').append(list["Q" + quest][0].title);
+            $('.a-answer').append(list["Q" + quest][0].choices[0]);
+            $('.b-answer').append(list["Q" + quest][0].choices[1]);
+            $('.c-answer').append(list["Q" + quest][0].choices[2]);
+            $('.d-answer').append(list["Q" + quest][0].choices[3]);
+        }
+        else
+        {
+            $('.question-block h1').append('Bravo vous avez Gagné');
+        }
     }
 
     $('.answers').click(function () {
