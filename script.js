@@ -24,16 +24,7 @@ $(document).ready(function () {
         async: false,
         success: function (data) {
             list = data;
-            $('.question-block h1').empty();
-            $('.a-answer').empty();
-            $('.b-answer').empty();
-            $('.c-answer').empty();
-            $('.d-answer').empty();
-            $('.question-block h1').append(data["Q" + quest][0].title);
-            $('.a-answer').append(data["Q" + quest][0].choices[0]);
-            $('.b-answer').append(data["Q" + quest][0].choices[1]);
-            $('.c-answer').append(data["Q" + quest][0].choices[2]);
-            $('.d-answer').append(data["Q" + quest][0].choices[3]);
+            newquest();
         }
     });
 
